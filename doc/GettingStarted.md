@@ -1,4 +1,4 @@
-[目录](../SUMMAY.md)
+[目录](.\SUMMAY.md)
 #入门简介
 本教程向你介绍使用qmake的基础部分。本手册中的其他部分将包含有关使用qmake的更多详细信息。
 
@@ -11,7 +11,7 @@ main.cpp
 ```
 你可以在你的qt安装目录的examples/qmake/tutorial中找到这些文件。关于应用程序的设置，你唯一知道的是它是用Qt编写的。首先，你可以用你喜欢的文本编辑器在examples/qmake/tutorial目录中创建一个名为hello.pro的文件，并首先在hello.pro文本文档中添加一些内容，以此来告诉qmake该目录下的相关头文件以及源文件是你开发项目中的一部分。
 
-我们将首先将源文件添加到项目文件中。要做到这一点，你需要使用SOURCES变量(关于SOURCES变量的详细信息你可以在[变量](Variable.md)这一节中查找)，并在hello.pro文件中添加如下内容：
+我们将首先将源文件添加到项目文件中。要做到这一点，你需要使用SOURCES变量(关于SOURCES变量的详细信息你可以在[变量](.\Variable.md)这一节中查找)，并在hello.pro文件中添加如下内容：
 ```
 SOURCES + = hello.cpp
 SOURCES + = main.cpp
@@ -141,3 +141,5 @@ ok！你现在已经完成了qmake的入门教程，并准备为你的开发项�
 
 ##以下内容是我自己补充的内容
 1.在安装qt的时候我们就可以选择安装相关的编译工具，既然我们选择了qmake那自然就安装windows下的minGw（该编译器其实就是gcc的windows版本）,或者Linux下的gcc。而qt中是包含相关的编译工具的。qt安装的minGW是包含make工具的，具体如何使用可以自行百度或者谷歌，这里不再具体说明了。
+
+[目录](.\SUMMAY.md)
