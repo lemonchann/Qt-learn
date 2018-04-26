@@ -1,3 +1,20 @@
-# testbook
-first git commit 
-hello word!
+#前言
+>##写在开始
+**本文主要翻译于qt的官方文档，是自己在学习qmake中翻译的，自己本身对qt并没有什么开发经验，以及自身英语水平本身就比较差（本身英语四级都没过），所以翻译过程中难免有不当之处，还请不喜勿喷，当然如果你在阅读中有任何意见，也请不吝赐教，自当仔细改正。翻译过程中也会加入一些自己的理解，关于这个我会在文档中注明那些是我自己的理解。**
+
+##下面的这一段是翻译于qt官方文档
+[qmake使用官方文档原文链接](http://doc.qt.io/qt-5/qmake-manual.html)
+
+qmake工具有助于简化跨平台项目开发的构建过程。qmake可以自动生成Makefiles，创建一个Makefile仅需要很少的几行命令。您可以将qmake用于任何软件项目，无论它是否使用Qt编写。
+
+qmake根据项目文件中的信息生成Makefile。项目文件由开发人员创建，通常很简单，但也能够为复杂的项目创建复杂的项目文件。
+
+qmake包含支持Qt开发的附加功能，自动包含moc和uic的构建规则。
+
+qmake也可以为Microsoft Visual Studio生成项目，而无需开发人员更改项目文件。
+
+##make qmake cmake
+这里我们首先要理解一下make qmake 以及cmake三者之间的区别和联系。qmake以及cmake是用来生成给make使用的Makefile，而Makefile可以看来是一个编译脚本，他里面实际就是执行一系列命令行编译命令，因此make不仅仅可以用来编译程序，也可以作一些批量处理。qmake 和cmake在许多功能是重复的，根据官方文档我们可以了解到qmake也可以用于其他软件项目的使用。cmake也可以用于qt的编译。
+这里说一下在使用make的时候其目标文件夹下一定要包含一个Makefile的文件，文件为纯文本格式，没有后缀，最重要的是名字就叫Makefile，大小写都不能不一样哦，我自己就吃过这个亏。现在想起来，自己真的是傻透了。
+对于三者进一步的区别，可以参考知乎上的一个帖子：
+[make makefile cmake qmake都是什么，有什么区别？](https://www.zhihu.com/question/27455963/answer/36796897)
