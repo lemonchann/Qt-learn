@@ -1,4 +1,5 @@
 # 目录
+
 * [前言](.\README.md)
 * [概览](.\Overview.md)
 * [入门简介](.\GettingStarted.md)
@@ -11,10 +12,9 @@
 * [使用预编译头文件](.\UsingPrecompiledHeaders.md)
 * [配置qmake](.\ConfiguringQmake.md)
 * [参考资料](.\Reference.md)
-    * [变量](.\Variables.md)
+  * [变量](.\Variables.md)
     * [替代函数](.\ReplaceFunctions.md)
-        * [内置替代函数](.\Built-inTestFunctions.md)
+      * [内置替代函数](.\Built-inTestFunctions.md)
     * [测试函数](.\TestFunctions.md)
-        * [内置测试函数](.\Built-inReplaceFunctions.md)
+      * [内置测试函数](.\Built-inReplaceFunctions.md)
         * [测试函数库](.\TestFunctions.md)
-          
