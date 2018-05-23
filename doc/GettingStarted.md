@@ -95,12 +95,12 @@ CONFIG + =debug
 HEADERS + = hello.h+ 
 SOURCES + = hello.cpp 
 SOURCES + = main.cpp
-win32 {{
+win32 {
     SOURCES + = hellowin.cpp
-}}
-unix {{
+}
+unix {
     SOURCES + = hellounix.cpp
-}}
+}
 ```
 
 像前面一样在运行qmake后就可以重新生成一个Makefile
