@@ -10,4 +10,4 @@
 
 ## 微信
 
-<figure><img src="./image/wechatPay.png"width=25% height=25%></figure>
+<figure><img src="./image/wechatPay.png"width=26% height=25%></figure>
