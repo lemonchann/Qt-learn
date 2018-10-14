@@ -6,8 +6,8 @@
 
 ## 支付宝
 
-<figure><img src="./image/aliPay.jpg"></figure>
+<figure><img src="./image/aliPay.jpg"width=25% height=25%></figure>
 
 ## 微信
 
-<figure><img src="./image/wechatPay.png"></figure>
+<figure><img src="./image/wechatPay.png"width=25% height=25%></figure>
